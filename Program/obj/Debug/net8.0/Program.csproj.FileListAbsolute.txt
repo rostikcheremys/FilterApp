@@ -1,0 +1,14 @@
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\bin\Debug\net8.0\Program.exe
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\bin\Debug\net8.0\Program.deps.json
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\bin\Debug\net8.0\Program.runtimeconfig.json
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\bin\Debug\net8.0\Program.dll
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\bin\Debug\net8.0\Program.pdb
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\Program.AssemblyInfoInputs.cache
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\Program.AssemblyInfo.cs
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\Program.csproj.CoreCompileInputs.cache
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\Program.dll
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\refint\Program.dll
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\Program.pdb
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\Program.genruntimeconfig.cache
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\ref\Program.dll
