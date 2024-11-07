@@ -12,3 +12,4 @@ F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\refint\Progra
 F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\Program.pdb
 F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\Program.genruntimeconfig.cache
 F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\ref\Program.dll
+F:\Programming\oc_laba_2\task_1\FilterApp\Program\obj\Debug\net8.0\Program.sourcelink.json

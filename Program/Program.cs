@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            string? filterWord = null; 
+            string? filterWord = null;
             bool ignoreCase = false;
-            string? filePath = null; 
             
             for (int i = 0; i < args.Length; i++)
             {
@@ -19,11 +18,6 @@
                 {
                     ignoreCase = true;
                 }
-                else if (args[i] == "-file" && i + 1 < args.Length)
-                {
-                    filePath = args[i + 1];
-                    i++; 
-                }
             }
             
             if (string.IsNullOrEmpty(filterWord))
@@ -31,36 +25,19 @@
                 Console.WriteLine("Необхідно вказати слово для фільтрації.");
                 return;
             }
-
-            string[] lines;
             
-            if (!string.IsNullOrEmpty(filePath))
-            {
-                if (!File.Exists(filePath))
-                {
-                    Console.WriteLine("Файл не знайдено.");
-                    return;
-                }
-                
-                string fileContent = File.ReadAllText(filePath);
-                
-                fileContent = fileContent.Replace("\\n", "\n");
-                
-                lines = fileContent.Split(['\n'], StringSplitOptions.None);
-            }
-            else
-            {
-                using var reader = new StreamReader(Console.OpenStandardInput());
-                string input = reader.ReadToEnd();
-                
-                lines = input.Split(['\n'], StringSplitOptions.None);
-            }
+            using var reader = new StreamReader(Console.OpenStandardInput());
+            
+            string? input = reader.ReadToEnd();
+            
+            string[] lines = input.Split(["\\n", "\n"], StringSplitOptions.None);
 
             foreach (var line in lines)
             {
+                
                 if ((ignoreCase && line.IndexOf(filterWord, StringComparison.OrdinalIgnoreCase) >= 0) || (!ignoreCase && line.Contains(filterWord)))
                 {
-                    Console.WriteLine(line.Trim());
+                    Console.WriteLine(line);
                 }
             }
         }
