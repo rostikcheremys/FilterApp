@@ -26,9 +26,9 @@
                 return;
             }
             
-            using var reader = new StreamReader(Console.OpenStandardInput());
+            using StreamReader reader = new StreamReader(Console.OpenStandardInput());
             
-            string? input = reader.ReadToEnd();
+            string input = reader.ReadToEnd();
             
             string[] lines = input.Split(["\\n", "\n"], StringSplitOptions.None);
 
